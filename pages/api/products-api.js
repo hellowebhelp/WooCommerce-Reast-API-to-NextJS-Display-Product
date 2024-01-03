@@ -21,7 +21,7 @@ export default async function handler(req, res) {
             'products',
             {
                 //per_page: perpage || 504, //example: ?perpage=1
-                per_page: 199,
+                per_page: 20,
                 status: 'publish',
 
             }
