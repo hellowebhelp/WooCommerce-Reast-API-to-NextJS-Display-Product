@@ -10,7 +10,7 @@ import fetch from 'isomorphic-unfetch';
 export const getStaticProps = async () => {
 
     // For Products Fetch
-    const res = await fetch(`https://example.com/api/products-api`);
+    const res = await fetch(`http://localhost:3000/api/products-api`);
     // const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const ProductData = await res.json();
 
